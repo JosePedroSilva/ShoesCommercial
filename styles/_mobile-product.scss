@@ -1,0 +1,38 @@
+.secondary-head {
+	display: none;
+}
+
+.product-page {
+	@include flex (center, center, column-reverse);
+	width: 95%;
+	margin: auto;
+	padding-top: 15rem;
+}
+.product-page-title h1 {
+	text-align: center;
+	font-weight: 400;
+}
+
+.product-page-title-text {
+	background: black;
+	color: white;
+	border-radius: 33px;
+	padding: 0rem 2rem;
+	margin: 0rem 5rem;
+	height: 200px;
+	p {
+		padding: 2rem 0rem;
+	}
+}
+
+.image-wrapper img {
+	display: flex;
+	justify-content: center;
+	padding-left: 2rem;
+	max-width: 90%;
+}
+@media screen and (min-width: 600px) {
+	.product-page-title-text {
+		height: 220px;
+	}
+}

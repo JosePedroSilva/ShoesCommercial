@@ -1,0 +1,113 @@
+.main-head {
+	@include flex(center, center, column);
+}
+.logo-wrapper {
+	display: flex;
+	justify-content: center;
+	img {
+		padding: 2rem 0rem;
+	}
+}
+
+.nav-links {
+	@include flex(space-around, center, row);
+	flex-wrap: wrap;
+	li {
+		padding: 0rem 2rem;
+	}
+}
+
+.hero {
+	@include flex(center, center, column);
+	width: 95%;
+	margin: auto;
+}
+
+.hero-introduction {
+	padding-top: 4rem;
+	h1 {
+		font-weight: 400;
+	}
+}
+.hero-intro-white {
+	color: white;
+}
+.hero-intro-right-align {
+	text-align: end;
+	padding-right: 2rem;
+	color: white;
+	font-weight: 400;
+}
+.yellow-text {
+	color: #ede526;
+	text-shadow: -2px 3px 5px rgba(0, 0, 0, 1);
+}
+.hero-btn {
+	display: none;
+}
+.hero-images img {
+	display: flex;
+	justify-content: center;
+	padding-top: 5rem;
+	padding-left: 2rem;
+	max-width: 90%;
+}
+
+.home-page-circle {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgb(0, 0, 0);
+	z-index: -1;
+	top: 150px;
+	left: 43%;
+}
+
+@media screen and (min-width: 600px) {
+	.home-page-circle {
+		left: 40%;
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media screen and (min-width: 460px) {
+	.home-page-circle {
+		left: 45%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+	}
+
+	h2 {
+		font-size: 2rem;
+		font-weight: 400;
+	}
+	h3 {
+		font-size: 1rem;
+	}
+	h4,
+	h5 {
+		font-size: 1rem;
+	}
+	ul {
+		list-style: none;
+	}
+	li,
+	button,
+	label,
+	input,
+	a,
+	p {
+		font-size: 1.5rem;
+	}
+}
+
+// justify-content: $justify;
+// align-items: $align;
+// flex-direction: $direction;

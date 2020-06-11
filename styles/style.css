@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background: #fcf42f;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4,
+h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo-wrapper img {
+  padding: 2rem 0rem;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav-links li {
+  padding: 0rem 2rem;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+
+.hero-introduction {
+  padding-top: 4rem;
+}
+
+.hero-introduction h1 {
+  font-weight: 400;
+}
+
+.hero-intro-white {
+  color: white;
+}
+
+.hero-intro-right-align {
+  text-align: end;
+  padding-right: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+.yellow-text {
+  color: #ede526;
+  text-shadow: -2px 3px 5px black;
+}
+
+.hero-btn {
+  display: none;
+}
+
+.hero-images img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  max-width: 90%;
+}
+
+.home-page-circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  z-index: -1;
+  top: 150px;
+  left: 43%;
+}
+
+@media screen and (min-width: 600px) {
+  .home-page-circle {
+    left: 40%;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .home-page-circle {
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4,
+  h5 {
+    font-size: 1rem;
+  }
+  ul {
+    list-style: none;
+  }
+  li,
+  button,
+  label,
+  input,
+  a,
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.secondary-head {
+  display: none;
+}
+
+.product-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 95%;
+  margin: auto;
+  padding-top: 15rem;
+}
+
+.product-page-title h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.product-page-title-text {
+  background: black;
+  color: white;
+  border-radius: 33px;
+  padding: 0rem 2rem;
+  margin: 0rem 5rem;
+  height: 200px;
+}
+
+.product-page-title-text p {
+  padding: 2rem 0rem;
+}
+
+.image-wrapper img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 2rem;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 600px) {
+  .product-page-title-text {
+    height: 220px;
+  }
+}
+
+.store-img-wrapper {
+  display: none;
+}
+
+.store-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7rem 0rem;
+}
+
+.store-location-card1,
+.store-location-card2,
+.store-location-card3 {
+  background: black;
+  color: white;
+  width: 70%;
+  margin: 1rem 0rem;
+  padding: 2rem 4rem;
+}
+
+.store-location-card1 img,
+.store-location-card2 img,
+.store-location-card3 img {
+  width: 10%;
+  float: right;
+}
+
+.store-location-card1 h3,
+.store-location-card2 h3,
+.store-location-card3 h3 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.store-location-card1 p,
+.store-location-card2 p,
+.store-location-card3 p {
+  padding: 1rem 0rem;
+}
+/*# sourceMappingURL=style.css.map */

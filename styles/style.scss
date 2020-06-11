@@ -1,0 +1,18 @@
+$header1: 5rem;
+$header2: 3rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2.5rem;
+$background-color: #fcf42f;
+
+@mixin flex ($justify, $align, $direction) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+
+@import 'global';
+@import 'mobile';
+@import 'mobile-product';
+@import 'mobile-stores';
