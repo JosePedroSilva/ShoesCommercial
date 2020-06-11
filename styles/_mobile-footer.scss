@@ -1,0 +1,17 @@
+footer {
+	color: white;
+	background: black;
+	min-height: 10vh;
+	@include flex(center, center, column);
+	h5 {
+		font-size: 1.2rem;
+		padding-top: 1rem;
+	}
+}
+
+footer ul {
+	@include flex(space-between, center, row);
+	li {
+		padding: 2rem;
+	}
+}

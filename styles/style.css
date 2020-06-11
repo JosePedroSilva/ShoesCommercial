@@ -311,7 +311,7 @@ a {
 .store-location-card1 h3,
 .store-location-card2 h3,
 .store-location-card3 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -319,5 +319,120 @@ a {
 .store-location-card2 p,
 .store-location-card3 p {
   padding: 1rem 0rem;
+}
+
+.contact-draw-wrapper {
+  display: none;
+  min-height: 100vh;
+}
+
+.form-wrapper {
+  background: #f6d41f;
+  border-radius: 16px;
+  width: 85%;
+  margin: 2rem auto;
+}
+
+.form-wrapper h2 {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.form-wrapper form .name-form,
+.form-wrapper form .email-form,
+.form-wrapper form .subject-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 5rem;
+}
+
+.form-wrapper form .name-form input,
+.form-wrapper form .email-form input,
+.form-wrapper form .subject-form input {
+  background: #f6d41f;
+  border: 1px solid black;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  padding: 0.2rem;
+}
+
+.subject-form textarea {
+  resize: none;
+  background: #f6d41f;
+  border: 1px solid black;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.form-wrapper button {
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 2rem;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  cursor: pointer;
+  border: none;
+  font-size: 1.6rem;
+  -webkit-transition: background 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+  background: #4b4a4a;
+}
+
+footer {
+  color: white;
+  background: black;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer h5 {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer ul li {
+  padding: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
