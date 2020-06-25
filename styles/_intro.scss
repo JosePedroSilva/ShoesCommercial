@@ -1,0 +1,69 @@
+@media screen and (min-width: 1024px) {
+	.hero-btn {
+		display: block;
+	}
+	.main-head {
+		align-items: flex-start;
+		width: 90%;
+		margin: auto;
+		padding-top: 2rem;
+	}
+	.main-head nav {
+		@include flex (space-around, center, row);
+	}
+	.nav-links li {
+		margin: 0rem 5rem;
+	}
+	.logo-wrapper img {
+		padding-right: 5rem;
+	}
+	.hero {
+		flex-direction: row;
+		justify-content: space-between;
+		min-height: 90vh;
+		overflow: hidden;
+		position: relative;
+		margin: 0;
+		width: 100%;
+	}
+	.hero-introduction {
+		color: white;
+		margin-left: 20rem;
+	}
+	.hero-intro-shadow {
+		text-shadow: none;
+	}
+	.hero-intro-right-align {
+		text-align: left;
+		padding: 3rem 0rem 10rem 0rem;
+	}
+	.hero-btn {
+		color: black;
+		background: #fcf42f;
+		cursor: pointer;
+		border: none;
+		font-size: 2.5rem;
+		border-radius: 20px;
+		width: 25rem;
+		height: 6.5rem;
+	}
+	.hero-btn button:hover {
+		background: #beb920;
+	}
+	.home-page-circle {
+		width: 1199px;
+		height: 1198px;
+		left: -15%;
+		top: 50px;
+	}
+	.hero-images img {
+		max-width: 100%;
+		padding: 0rem 10rem 10rem 0rem;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+	.home-page-circle {
+		left: -40%;
+	}
+}

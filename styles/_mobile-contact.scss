@@ -1,13 +1,25 @@
+.contact-content {
+	@include flex (space-between, center, row);
+	flex-wrap: wrap;
+}
+
 .contact-draw-wrapper {
-	display: none;
-	min-height: 100vh;
+	svg {
+		max-width: 90%;
+		padding: 0;
+		margin: 0;
+		height: 70%;
+	}
+	order: 2;
 }
 
 .form-wrapper {
 	background: #f6d41f;
 	border-radius: 16px;
 	width: 85%;
-	margin: 2rem auto;
+	height: auto;
+	margin: 2rem auto 4rem auto;
+	order: 1;
 	h2 {
 		text-align: center;
 		padding-top: 1rem;
@@ -52,6 +64,51 @@
 	transition: background 0.5s ease-in-out;
 }
 
-button:hover {
+.form-wrapper button:hover {
 	background: rgb(75, 74, 74);
+}
+#bird1 {
+	animation: fligh1 5s ease infinite alternate;
+}
+#bird2 {
+	animation: fligh1 6s ease infinite alternate 0.4s;
+}
+#bird3 {
+	animation: fligh2 6s ease infinite alternate;
+}
+#sun {
+	animation: sunSet 20s infinite alternate;
+}
+
+// @keyframes escape {
+// 	from {
+// 		transform: translateY(0%) translateX(0%);
+// 	}
+// 	to {
+// 		transform: translateY(100%) translateX(100%);
+// 	}
+// }
+@keyframes fligh1 {
+	from {
+		transform: translateY(0%) translateX(0%);
+	}
+	to {
+		transform: translateY(-5%) translateX(-5%);
+	}
+}
+@keyframes fligh2 {
+	from {
+		transform: translateY(0%) translateX(0%);
+	}
+	to {
+		transform: translateY(-3%) translateX(-7%);
+	}
+}
+@keyframes sunSet {
+	from {
+		transform: translateY(0%) translateX(0%);
+	}
+	to {
+		transform: translateY(95%) translateX(-70%);
+	}
 }

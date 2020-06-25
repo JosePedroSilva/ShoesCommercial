@@ -14,6 +14,7 @@
 	flex-wrap: wrap;
 	li {
 		padding: 0rem 2rem;
+		flex: 1 1 1rem;
 	}
 }
 
@@ -32,11 +33,16 @@
 .hero-intro-white {
 	color: white;
 }
+.hero-intro-shadow {
+	text-shadow: -2px 3px 5px #f8f00f;
+}
 .hero-intro-right-align {
 	text-align: end;
 	padding-right: 2rem;
 	color: white;
-	font-weight: 400;
+	h2 {
+		font-weight: 400;
+	}
 }
 .yellow-text {
 	color: #ede526;

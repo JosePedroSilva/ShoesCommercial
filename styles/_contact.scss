@@ -1,0 +1,35 @@
+@media screen and (min-width: 1024px) {
+	.contact-draw-wrapper {
+		display: block;
+		padding-bottom: 2rem;
+		padding-left: 10rem;
+		order: 1;
+	}
+	.contact-content {
+		@include flex (space-between, center, row);
+		flex-wrap: wrap-reverse;
+	}
+	.form-wrapper {
+		width: 30%;
+		margin: 0 20rem 0 5rem;
+		flex: 1 1 40rem;
+		order: 2;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1640px) {
+	.contact-content {
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: wrap-reverse;
+	}
+	.form-wrapper {
+		width: 60%;
+		margin: 5rem 0 5rem;
+		flex: 1 2 40rem;
+		order: 1;
+	}
+	.contact-draw-wrapper {
+		order: 2;
+	}
+}

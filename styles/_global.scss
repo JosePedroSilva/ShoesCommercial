@@ -41,3 +41,14 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
+@media screen and (min-width: 1024px) {
+	.active {
+		background: black;
+		border-radius: 117px;
+		a {
+			color: #fcf42f;
+			margin: 0rem;
+		}
+	}
+}
