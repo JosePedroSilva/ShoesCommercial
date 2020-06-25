@@ -9,6 +9,12 @@ Created with HTML and CSS
 
 ## Presentation:
 
+
+Desktop:
+
+![Presentation GIF](https://github.com/JosePedroSilva/ShoesCommercial/blob/master//img/shoes.gif)
+
+
 Mobile:
 
   
@@ -18,6 +24,4 @@ Mobile:
   
   
 
-Desktop:
 
-![Presentation GIF](https://github.com/JosePedroSilva/ShoesCommercial/blob/master//img/shoes.gif)
