@@ -1,6 +1,7 @@
 # Sport shoes web page 
 
 ## Link:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ceba4ead-d812-4cb9-9771-b3842fd61c86/deploy-status)](https://app.netlify.com/sites/shoes-commercial/deploys)
 [https://shoes-commercial.netlify.app/](https://shoes-commercial.netlify.app/)
 
 ## About:
